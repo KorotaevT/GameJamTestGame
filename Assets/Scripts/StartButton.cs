@@ -6,8 +6,19 @@ using UnityEngine.SceneManagement;
 public class StartButton : MonoBehaviour
 {
 
-    public void startActivity()
+    public void startButton()
     {
         SceneManager.LoadScene("SecondScene");
     }
+
+    public void settingsButton()
+    {
+        
+    }
+    
+    public void ExitButton()
+    {
+        Application.Quit();
+    }
+    
 }
