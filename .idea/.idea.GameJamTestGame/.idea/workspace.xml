@@ -5,7 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="191c6aed-0be4-49be-877f-c0318a0d9e71" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StartButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StartButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entiti.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entiti/BackGrounds.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entiti/BackGrounds/процессор синий.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entiti/BackGrounds/процессор синий.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entiti/Enemies.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entiti/Items.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entiti/Objects.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entiti/character.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MenuButtons.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MenuButtons.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJamTestGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJamTestGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SecondScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SecondScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StartButton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StartButton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/BigBoxSide.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/BigBoxSide.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/BigBoxTop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/BigBoxTop.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Box.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Box.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/BoxBig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/BoxBig.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/процессор синий .jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/процессор синий .jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/процессор синий.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/процессор синий.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,19 +46,26 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2SeTQZjhP59uw8YXxnqnxMCuGo8" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Discover.Launch.Via.Unity": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Games\2022.3.4f1\Editor\Unity.exe" />
@@ -68,6 +105,8 @@
       <option name="presentableId" value="Default" />
       <updated>1689506034809</updated>
       <workItem from="1689506043085" duration="60000" />
+      <workItem from="1689600240994" duration="1000" />
+      <workItem from="1689600266434" duration="333000" />
     </task>
     <servers />
   </component>
@@ -89,6 +128,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>
