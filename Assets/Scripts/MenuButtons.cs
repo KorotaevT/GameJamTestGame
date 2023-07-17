@@ -3,17 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class StartButton : MonoBehaviour
+public class MenuButtons : MonoBehaviour
 {
 
     public void startButton()
     {
-        SceneManager.LoadScene("SecondScene");
+        SceneManager.LoadScene("PreGameScene");
     }
 
     public void settingsButton()
     {
-        
+        SceneManager.LoadScene("SettingsScene");
     }
     
     public void ExitButton()
