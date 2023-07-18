@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="191c6aed-0be4-49be-877f-c0318a0d9e71" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CameraScript.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJamTestGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJamTestGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/PreGameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/PreGameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MenuButtons.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MenuButtons.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entity/Character/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entity/Character/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entity/Objects/LevelFlour(для тестов, желательно заменить).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entity/Objects/LevelFlour(для тестов, желательно заменить).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LobbyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LobbyScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +83,8 @@
       <workItem from="1689600266434" duration="564000" />
       <workItem from="1689601234954" duration="172000" />
       <workItem from="1689601439751" duration="1000" />
+      <workItem from="1689701983802" duration="1000" />
+      <workItem from="1689701996552" duration="1305000" />
     </task>
     <servers />
   </component>
