@@ -5,10 +5,10 @@ using UnityEngine;
 public class CameraScript : MonoBehaviour
 {
     public Camera camera;
-    public float smoothSpeed = 0.125f;
+    public float smoothSpeed = 100f;
     void Update()
     {
         Vector3 smoothedPosition = Vector3.Lerp(camera.transform.position, transform.position, smoothSpeed);
-        camera.transform.position = new Vector3(smoothedPosition.x, smoothedPosition.y, -10);
+        camera.transform.position = new Vector3(smoothedPosition.x, smoothedPosition.y + 5, -10);
     }
 }
