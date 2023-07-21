@@ -8,6 +8,7 @@ public class PlayerScript : MonoBehaviour
 {
     public float moveSpeed;
     public float jumpForce;
+    private float maxSpeed = 150;
     private bool isGrounded;
     private Rigidbody2D rb;
     private Transform GroundCheck;
@@ -31,10 +32,30 @@ public class PlayerScript : MonoBehaviour
 
     private void MovementLogic()
     {
-        float moveHorizontal = Input.GetAxis("Horizontal");
+        float moveHorizontal = RoundToRange(Input.GetAxis("Horizontal"));
         rb.velocity = new Vector2(moveHorizontal * moveSpeed, rb.velocity.y);
-
     }
+    
+    private void OnCollisionStay2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("ladder") && rb.velocity.magnitude > maxSpeed)
+        {
+            rb.velocity = rb.velocity.normalized * maxSpeed;
+        }
+    }
+    
+    float RoundToRange(float value)
+    {
+        if (value < 0)
+        {
+            return Mathf.Clamp(value, -1f, 0f);
+        }
+        else
+        {
+            return Mathf.Clamp(value, 0f, 1f);
+        }
+    }
+
 
     private void CheckingGround()
     {
