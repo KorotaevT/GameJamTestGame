@@ -154,6 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   camera: {fileID: 0}
   smoothSpeed: 100
+  panSpeed: 800
 --- !u!114 &991087041689647956
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -167,7 +168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 400
-  jumpForce: 300
+  jumpForce: 250
   ground:
     serializedVersion: 2
     m_Bits: 65536
