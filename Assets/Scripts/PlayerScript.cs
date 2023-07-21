@@ -10,49 +10,46 @@ public class PlayerScript : MonoBehaviour
     public float jumpForce;
     private bool isGrounded;
     private Rigidbody2D rb;
+    private Transform GroundCheck;
+    private float checkRadius = 0.5f;
+    public LayerMask ground ;
     
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        GroundCheck = transform.Find("Grounded");
     }
 
-    void FixedUpdate()
+    void Update()
     {
         MovementLogic();
+        CheckingGround();
+        Jump();
     }
+
 
     private void MovementLogic()
     {
         float moveHorizontal = Input.GetAxis("Horizontal");
-        float moveVertical = Input.GetAxis("Vertical");
         rb.velocity = new Vector2(moveHorizontal * moveSpeed, rb.velocity.y);
-        Debug.Log(isGrounded);
-        Debug.Log(moveVertical);
-        if (moveVertical>0 && isGrounded)
-        {
-            Jump();
-        }
+
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void CheckingGround()
     {
-        if (other.gameObject.layer == LayerMask.NameToLayer("LevelObjects"))
-        {
-            isGrounded = true;
-            rb.velocity = Vector2.zero;
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        isGrounded = false;
+        isGrounded = Physics2D.OverlapCircle(GroundCheck.GetComponent<CircleCollider2D>().bounds.center, checkRadius, ground);
     }
 
 
     private void Jump()
     {
-        Debug.Log("jump");
-        rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+        if (Input.GetButtonDown("Jump"))
+        {
+            if (isGrounded)
+            {
+                rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            }
+        }
     }
 }
