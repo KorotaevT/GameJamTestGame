@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7978401949353645607}
   - component: {fileID: 6140979841525927335}
+  - component: {fileID: 9094974159016767088}
   m_Layer: 16
   m_Name: TechStairsRightBrickRed
   m_TagString: ladder
@@ -42,7 +43,7 @@ PolygonCollider2D:
   m_GameObject: {fileID: 1286049025471801767}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: ed6e8c01b17019a458305c00d8c40cd2, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -81,6 +82,19 @@ PolygonCollider2D:
       - {x: 32, y: -32}
       - {x: -32, y: -32}
   m_UseDelaunayMesh: 0
+--- !u!114 &9094974159016767088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286049025471801767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c01311e9cc5b2b14aa172eddce011d4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gravity: 3
 --- !u!1 &5179100010143453813
 GameObject:
   m_ObjectHideFlags: 0
