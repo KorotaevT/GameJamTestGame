@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="191c6aed-0be4-49be-877f-c0318a0d9e71" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Entity/Objects/TechStairsRightBrickRed.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entity/Objects/TechStairsRightBrickRed.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJamTestGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJamTestGame/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Entity/Character/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entity/Character/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entity/Objects/TechConcrete.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entity/Objects/TechConcrete.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LobbyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LobbyScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entity/Objects/TechStairsRightBrickRed.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entity/Objects/TechStairsRightBrickRed.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +18,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/17484a9af6b944dea5cd9be4dbb0da2c171c00/09/676f28f1/UnitySynchronizationContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LadderScript.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -98,6 +95,8 @@
       <workItem from="1689891467090" duration="7315000" />
       <workItem from="1689942234790" duration="7598000" />
       <workItem from="1689971974059" duration="5668000" />
+      <workItem from="1690674731689" duration="9000" />
+      <workItem from="1690674808549" duration="2503000" />
     </task>
     <servers />
   </component>

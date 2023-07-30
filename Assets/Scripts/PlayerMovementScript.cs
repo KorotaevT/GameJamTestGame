@@ -43,7 +43,7 @@ public class PlayerScript : MonoBehaviour
             rb.velocity = rb.velocity.normalized * maxSpeed;
         }
     }
-    
+
     float RoundToRange(float value)
     {
         if (value < 0)
