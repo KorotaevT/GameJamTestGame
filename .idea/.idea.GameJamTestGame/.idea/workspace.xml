@@ -5,11 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="191c6aed-0be4-49be-877f-c0318a0d9e71" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Entity/Items/1 handed sword.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entity/Items/1 handed sword.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entity/Items/Pistol.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entity/Items/Pistol.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GetHandleScript.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GetHandleScript.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Person/Human skeleton (test).meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Person/Human skeleton.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Person/Human skeleton/human skeleton forearm.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Person/Human skeleton/human skeleton hip.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Person/Human skeleton/human skeleton pelvis.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Person/Human skeleton/human skeleton shin.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Person/Human skeleton/human skeleton shoulder.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Person/Human skeleton/human skeleton skull.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/Person/Human skeleton/human skeleton torso.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/Range.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/Range/pngwing.com.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/Range/pngwing.com.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/melee.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/melee/1 handed sword.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/melee/2 handed sword.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/melee/shield.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJamTestGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJamTestGame/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Entity/Character/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entity/Character/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entity/Objects/TechStairsRightBrickRed.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entity/Objects/TechStairsRightBrickRed.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LobbyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LobbyScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovementScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovementScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +122,7 @@
       <workItem from="1689971974059" duration="5668000" />
       <workItem from="1690674731689" duration="9000" />
       <workItem from="1690674808549" duration="2503000" />
+      <workItem from="1690921830383" duration="1737000" />
     </task>
     <servers />
   </component>
