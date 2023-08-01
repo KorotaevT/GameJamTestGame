@@ -73,4 +73,9 @@ public class PlayerScript : MonoBehaviour
             }
         }
     }
+
+    private void MoveHandsToHandle()
+    {
+        
+    }
 }
