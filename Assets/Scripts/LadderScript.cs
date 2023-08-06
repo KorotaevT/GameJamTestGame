@@ -14,6 +14,6 @@ public class LadderScript : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D other)
     {
-        other.rigidbody.gravityScale = 90;
+        other.rigidbody.gravityScale = 1;
     }
 }

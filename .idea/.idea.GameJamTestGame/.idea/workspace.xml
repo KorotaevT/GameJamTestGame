@@ -5,36 +5,101 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="191c6aed-0be4-49be-877f-c0318a0d9e71" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Entity/Items/1 handed sword.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entity/Items/1 handed sword.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entity/Items/Pistol.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Entity/Items/Pistol.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GetHandleScript.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GetHandleScript.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Person/Human skeleton (test).meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Person/Human skeleton.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Person/Human skeleton/human skeleton forearm.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Person/Human skeleton/human skeleton hip.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Person/Human skeleton/human skeleton pelvis.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Person/Human skeleton/human skeleton shin.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Person/Human skeleton/human skeleton shoulder.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Person/Human skeleton/human skeleton skull.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Person/Human skeleton/human skeleton torso.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/Range.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/Range/pngwing.com.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/Range/pngwing.com.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/melee.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/melee/1 handed sword.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/melee/2 handed sword.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/melee/shield.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entity/Character/Player(old).prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entity/Character/Player(old).prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/enviroment/asphalt 1-4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/enviroment/asphalt fresh 1-4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/enviroment/tech bricks red 1-4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/enviroment/tech bricks white 1-4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/enviroment/tech concrete 1-4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/enviroment/tech door white opened.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/enviroment/tech door white.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/enviroment/tech door wood opened.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/enviroment/tech door wood.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/enviroment/tech srairs left brick red 1-4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/enviroment/tech srairs left brick white 1-4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/enviroment/tech stairs left concrete 1-4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/enviroment/tech stairs right brick red 1-4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/enviroment/tech stairs right brick white 1-4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/enviroment/tech stairs right concrete 1-4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/ak12.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/ak12/ak12 gate delay.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/ak12/ak12 mag.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/ak12/ak12 map empty.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/ak12/ak12 no mag.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/ak12/ak12 ready.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/ak15.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/ak15/ak15 gate delay.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/ak15/ak15 mag empty.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/ak15/ak15 mag.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/ak15/ak15 no mag.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/ak15/ak15 ready.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/chiappa rhino.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/chiappa rhino/chiappa rhino speedloade.aseprite.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/chiappa rhino/chiappa rhino.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/chiappa rhino/shiappa rhino opened.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/glock.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/glock/glock gate delay+no mag.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/glock/glock gate delay.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/glock/glock mag empty.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/glock/glock mag.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/glock/glock mo mag.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/glock/glock ready.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/mossberg 500.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/mossberg 500/mossberg 500 pumped.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/mossberg 500/mossberg 500.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/mp5.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/mp5/mp5 gate delay.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/mp5/mp5 handle back.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/mp5/mp5 handle up + no mag.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/mp5/mp5 handle up.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/mp5/mp5 mag empty.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/mp5/mp5 mag.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/mp5/mp5 no mag.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/mp5/mp5 ready.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/svd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/svd/svd gate delay + no mag.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/svd/svd gate delay.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/svd/svd mag empty.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/svd/svd mag.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/svd/svd no mag.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/svd/svd ready.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJamTestGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJamTestGame/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Entity/Character/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entity/Character/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entity/Objects/BricksFlour(X9).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entity/Objects/BricksFlour(X9).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entity/Objects/TechBricksRed.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entity/Objects/TechBricksRed.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entity/Objects/TechStairsRightBrickRed.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entity/Objects/TechStairsRightBrickRed.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/LobbyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LobbyScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LadderScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LadderScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovementScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovementScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Person/Human skeleton (test)/human_skeleton_right_0.5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Person/Human skeleton (test)/human_skeleton_right_0.5.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Person/Human skeleton/human skeleton forearm.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Person/Human skeleton/human skeleton forearm.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Person/Human skeleton/human skeleton hip.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Person/Human skeleton/human skeleton hip.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Person/Human skeleton/human skeleton pelvis.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Person/Human skeleton/human skeleton pelvis.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Person/Human skeleton/human skeleton shin.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Person/Human skeleton/human skeleton shin.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Person/Human skeleton/human skeleton shoulder.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Person/Human skeleton/human skeleton shoulder.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Person/Human skeleton/human skeleton skull.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Person/Human skeleton/human skeleton skull.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Person/Human skeleton/human skeleton torso.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Person/Human skeleton/human skeleton torso.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/enviroment/tech asphalt fresh.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/enviroment/tech asphalt fresh.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/enviroment/tech asphalt.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/enviroment/tech asphalt.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/enviroment/tech bricks red.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/enviroment/tech bricks red.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/enviroment/tech bricks white.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/enviroment/tech bricks white.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/enviroment/tech car+nomer.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/enviroment/tech car+nomer.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/enviroment/tech car.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/enviroment/tech car.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/enviroment/tech concrete.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/enviroment/tech concrete.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/enviroment/tech srairs left brick red.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/enviroment/tech srairs left brick red.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/enviroment/tech srairs left brick white.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/enviroment/tech srairs left brick white.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/enviroment/tech stairs left concrete.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/enviroment/tech stairs left concrete.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/enviroment/tech stairs right brick red.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/enviroment/tech stairs right brick red.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/enviroment/tech stairs right brick white.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/enviroment/tech stairs right brick white.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/enviroment/tech stairs right concrete.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/enviroment/tech stairs right concrete.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/enviroment/tech window closed light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/enviroment/tech window closed light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/enviroment/tech window closed.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/enviroment/tech window closed.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,10 +153,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="13092">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="13092" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -122,7 +187,8 @@
       <workItem from="1689971974059" duration="5668000" />
       <workItem from="1690674731689" duration="9000" />
       <workItem from="1690674808549" duration="2503000" />
-      <workItem from="1690921830383" duration="1737000" />
+      <workItem from="1690921830383" duration="1738000" />
+      <workItem from="1691269621935" duration="6143000" />
     </task>
     <servers />
   </component>

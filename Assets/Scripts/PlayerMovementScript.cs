@@ -8,17 +8,17 @@ public class PlayerScript : MonoBehaviour
 {
     public float moveSpeed;
     public float jumpForce;
-    private float maxSpeed = 150;
+    private float maxSpeed = 1.5f;
     private bool isGrounded;
     private Rigidbody2D rb;
     private Transform GroundCheck;
-    private float checkRadius = 0.5f;
+    private float checkRadius = 0.05f;
     public LayerMask ground ;
     
 
     private void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        rb = transform.GetComponent<Rigidbody2D>();
         GroundCheck = transform.Find("Grounded");
     }
 
@@ -59,7 +59,7 @@ public class PlayerScript : MonoBehaviour
 
     private void CheckingGround()
     {
-        isGrounded = Physics2D.OverlapCircle(GroundCheck.GetComponent<CircleCollider2D>().bounds.center, checkRadius, ground);
+       // isGrounded = Physics2D.OverlapCircle(GroundCheck.GetComponent<CircleCollider2D>().bounds.center, checkRadius, ground);
     }
 
 
