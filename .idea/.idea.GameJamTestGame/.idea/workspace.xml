@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="191c6aed-0be4-49be-877f-c0318a0d9e71" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LegsColliderScript.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LegsColliderScript.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJamTestGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJamTestGame/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Entity/Character/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entity/Character/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entity/Objects/TechAsphalteFresh.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entity/Objects/TechAsphalteFresh.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/ak12/ak12 gate delay.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/ak12/ak12 gate delay.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/ak12/ak12 mag.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/ak12/ak12 mag.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/ak12/ak12 map empty.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/ak12/ak12 map empty.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/ak12/ak12 no mag.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/ak12/ak12 no mag.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/ak12/ak12 ready.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/weapons/firearm/ak12/ak12 ready.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/L1P1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/L1P1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +20,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/17484a9af6b944dea5cd9be4dbb0da2c171c00/09/676f28f1/UnitySynchronizationContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LadderScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LegsColliderScript.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -49,7 +48,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Games\2022.3.4f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Games\2023.1.7f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\tasks\GameJamTestGame -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\tasks\GameJamTestGame" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -103,6 +102,8 @@
       <workItem from="1690921830383" duration="1738000" />
       <workItem from="1691269621935" duration="6733000" />
       <workItem from="1691320651999" duration="669000" />
+      <workItem from="1691350858730" duration="778000" />
+      <workItem from="1691352118503" duration="1025000" />
     </task>
     <servers />
   </component>
