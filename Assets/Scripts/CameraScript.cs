@@ -36,7 +36,7 @@ public class CameraScript : MonoBehaviour
         else
         {
             Vector3 smoothedPosition = Vector3.Lerp(camera.transform.position, transform.position, smoothSpeed);
-            camera.transform.position = new Vector3(smoothedPosition.x, smoothedPosition.y + 100, -10);
+            camera.transform.position = new Vector3(smoothedPosition.x, smoothedPosition.y + 0.1f, -10);
         }
     }
 }
