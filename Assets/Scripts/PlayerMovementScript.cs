@@ -14,7 +14,11 @@ public class PlayerScript : MonoBehaviour
     private Transform GroundCheck;
     private float checkRadius = 0.05f;
     public LayerMask ground ;
-    
+    public GameObject LeftFistPos;
+    public GameObject RightFistPos;
+    private Vector2 startPoint;
+    private float distance = 0.35f;
+    private bool isFlipped = false;
 
     private void Start()
     {
@@ -27,6 +31,44 @@ public class PlayerScript : MonoBehaviour
         MovementLogic();
         CheckingGround();
         Jump();
+        MoveHandsToHandle();
+    }
+    
+    private void FlipSprite(SpriteRenderer spriteRenderer)
+    {
+        spriteRenderer.flipX = !spriteRenderer.flipX;
+    }
+
+    private void FlipSpritesInChildren(Transform parentTransform)
+    {
+        foreach (Transform child in parentTransform)
+        {
+            SpriteRenderer spriteRenderer = child.GetComponent<SpriteRenderer>();
+
+            if (spriteRenderer != null)
+            {
+                FlipSprite(spriteRenderer);
+            }
+            
+            FlipSpritesInChildren(child);
+        }
+    }
+
+    public void MoveHandsToHandle()
+    {
+        startPoint = rb.position;
+        Vector3 cursorPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector2 direction = cursorPosition - (Vector3)startPoint;
+        Vector2 directionNormalized = direction.normalized;
+        Vector2 middlePoint = startPoint + directionNormalized * distance;
+        LeftFistPos.transform.position = new Vector3(middlePoint.x, middlePoint.y, rb.transform.position.z);
+        RightFistPos.transform.position = new Vector3(middlePoint.x, middlePoint.y, rb.transform.position.z);
+
+        if ((cursorPosition.x < startPoint.x && !isFlipped) || (cursorPosition.x > startPoint.x && isFlipped))
+        {
+            FlipSpritesInChildren(transform.parent);
+            isFlipped = !isFlipped;
+        }
     }
 
 
@@ -72,10 +114,5 @@ public class PlayerScript : MonoBehaviour
                 rb.velocity = new Vector2(rb.velocity.x, jumpForce);
             }
         }
-    }
-
-    private void MoveHandsToHandle()
-    {
-        
     }
 }
