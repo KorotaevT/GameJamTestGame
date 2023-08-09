@@ -5,15 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="191c6aed-0be4-49be-877f-c0318a0d9e71" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/IgnoreColliders.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/IgnoreColliders.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PositionRectangle.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PositionRectangle.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entity/Objects/StairsLeftX5.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Entity/Objects/StairsLeftX5.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlatformScript.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlatformScript.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJamTestGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJamTestGame/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Entity/Character/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entity/Character/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entity/Objects/Tech Platform Concrete 1-4.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entity/Objects/Tech Platform Concrete 1-4.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entity/Objects/TechStairsLeftConcrete 1-4.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entity/Objects/TechStairsLeftConcrete 1-4.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/L1P1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/L1P1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/LobbyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LobbyScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovementScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovementScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LadderScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LadderScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,10 +75,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="22828">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="29656">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="22828" />
+      <option name="pid" value="29656" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -113,6 +116,10 @@
       <workItem from="1691352118503" duration="1025000" />
       <workItem from="1691354576360" duration="550000" />
       <workItem from="1691518535460" duration="10187000" />
+      <workItem from="1691598839508" duration="8394000" />
+      <workItem from="1691607466205" duration="5776000" />
+      <workItem from="1691614730718" duration="2007000" />
+      <workItem from="1691617076913" duration="341000" />
     </task>
     <servers />
   </component>
@@ -138,6 +145,28 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/LadderScript.cs</url>
+          <line>34</line>
+          <properties documentPath="C:\tasks\GameJamTestGame\Assets\Scripts\LadderScript.cs" initialLine="34" containingFunctionPresentation="method 'IsPlayerOnUpPoint'">
+            <startOffsets>
+              <option value="815" />
+            </startOffsets>
+            <endOffsets>
+              <option value="905" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Frame#LadderScript.Update" memberName="this" />
+      </pinned-members>
+    </pin-to-top-manager>
     <watches-manager>
       <configuration name="UNITY_DEBUG_RUN_CONFIGURATION">
         <watch expression="collider2Ds" />
