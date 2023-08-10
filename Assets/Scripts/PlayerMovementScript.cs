@@ -19,6 +19,8 @@ public class PlayerScript : MonoBehaviour
     private Vector2 startPoint;
     private float distance = 0.35f;
     private bool isFlipped = false;
+    private bool isClimbing = false;
+    public float climbSpeed = 2.0f;
 
     private void Start()
     {
@@ -28,10 +30,10 @@ public class PlayerScript : MonoBehaviour
 
     void Update()
     {
+        MoveHandsToHandle();
         MovementLogic();
         CheckingGround();
         Jump();
-        MoveHandsToHandle();
     }
     
     private void FlipSprite(SpriteRenderer spriteRenderer)
@@ -69,6 +71,18 @@ public class PlayerScript : MonoBehaviour
             FlipSpritesInChildren(transform.parent);
             isFlipped = !isFlipped;
         }
+    }
+
+    public void ClimbLadder(Vector3 targetPosition)
+    {
+        isClimbing = true;
+        Vector3 newPosition = new Vector3(targetPosition.x, targetPosition.y, targetPosition.z);
+        transform.parent.position = Vector3.Lerp(transform.parent.position, newPosition, Time.deltaTime * climbSpeed);
+    }
+
+    public void StopClimbing()
+    {
+        isClimbing = false;
     }
 
 

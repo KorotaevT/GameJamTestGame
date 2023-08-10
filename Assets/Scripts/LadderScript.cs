@@ -12,7 +12,6 @@ public class LadderScript : MonoBehaviour
 
     private void Start()
     {
-        transform.GetComponent<Collider2D>().enabled = false;
         UpPoint = transform.Find("UpPoint");
         DownPoint = transform.Find("DownPoint");
         player = GameObject.FindGameObjectWithTag("Player");
@@ -21,27 +20,51 @@ public class LadderScript : MonoBehaviour
     private void Update()
     {
         float moveVertical = Input.GetAxis("Vertical");
-        
-        if (moveVertical < 0 || IsPlayerOnUpPoint())
+    }
+    
+    public float climbingSpeed = 1.0f;
+
+    private bool isOnLadder = false;
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
         {
-            Debug.Log(true);
+            foreach (Transform child in other.transform.parent.transform)
+            {
+                Rigidbody2D playerRigidbody = child.GetComponent<Rigidbody2D>();
+                if (playerRigidbody != null)
+                {
+                    playerRigidbody.gravityScale = 1f;
+                }
+            }
+            isOnLadder = false;
+            transform.parent.GetComponent<Collider2D>().enabled = false;
         }
     }
 
-    public bool IsPlayerOnUpPoint()
+    private void OnTriggerStay2D(Collider2D other)
     {
-        if (player != null)
+        if (Input.GetAxis("Vertical")!=0)
         {
-            Transform shinLeft = player.transform.parent.transform.Find("PlayerShinLeft").GetChild(0);
-            Debug.Log("UpPoint = " + UpPoint.GetComponent<Collider2D>().bounds);
-            Debug.Log("Noga = " +  shinLeft.GetComponent<Collider2D>().bounds);
-            if (UpPoint.GetComponent<Collider2D>().bounds.Contains(shinLeft.position))
-            {
-                return true;
-            }
-                
+            isOnLadder = true;
+            
         }
-
-        return false;
+        if (other.CompareTag("Player") && isOnLadder)
+        {
+            foreach (Transform child in other.transform.parent.transform)
+            {
+                Rigidbody2D playerRigidbody = child.GetComponent<Rigidbody2D>();
+                if (playerRigidbody != null)
+                {
+                    playerRigidbody.velocity = Vector2.zero;
+                    playerRigidbody.angularVelocity = 0f;
+                    playerRigidbody.gravityScale = 0f;
+                    playerRigidbody.drag = 0f;
+                    playerRigidbody.angularDrag = 0f;
+                }
+            }
+            transform.parent.GetComponent<Collider2D>().enabled = true;
+        }
     }
 }
