@@ -17,10 +17,9 @@ public class PlayerScript : MonoBehaviour
     public GameObject LeftFistPos;
     public GameObject RightFistPos;
     private Vector2 startPoint;
-    private float distance = 0.35f;
+    public float distance = 0.35f;
     private bool isFlipped = false;
     private bool isClimbing = false;
-    public float climbSpeed = 2.0f;
 
     private void Start()
     {
@@ -58,13 +57,14 @@ public class PlayerScript : MonoBehaviour
 
     public void MoveHandsToHandle()
     {
-        startPoint = rb.position;
+        startPoint = new Vector2(rb.position.x, rb.position.y + 0.1f);
         Vector3 cursorPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector2 direction = cursorPosition - (Vector3)startPoint;
         Vector2 directionNormalized = direction.normalized;
         Vector2 middlePoint = startPoint + directionNormalized * distance;
         LeftFistPos.transform.position = new Vector3(middlePoint.x, middlePoint.y, rb.transform.position.z);
         RightFistPos.transform.position = new Vector3(middlePoint.x, middlePoint.y, rb.transform.position.z);
+
 
         if ((cursorPosition.x < startPoint.x && !isFlipped) || (cursorPosition.x > startPoint.x && isFlipped))
         {
@@ -73,22 +73,9 @@ public class PlayerScript : MonoBehaviour
         }
     }
 
-    public void ClimbLadder(Vector3 targetPosition)
-    {
-        isClimbing = true;
-        Vector3 newPosition = new Vector3(targetPosition.x, targetPosition.y, targetPosition.z);
-        transform.parent.position = Vector3.Lerp(transform.parent.position, newPosition, Time.deltaTime * climbSpeed);
-    }
-
-    public void StopClimbing()
-    {
-        isClimbing = false;
-    }
-
-
     private void MovementLogic()
     {
-        float moveHorizontal = RoundToRange(Input.GetAxis("Horizontal"));
+        float moveHorizontal = ((Input.GetAxis("Horizontal") > 0) ? 1.0f : ((Input.GetAxis("Horizontal") < 0) ? -1.0f : 0.0f));
         rb.velocity = new Vector2(moveHorizontal * moveSpeed, rb.velocity.y);
     }
     
@@ -99,20 +86,7 @@ public class PlayerScript : MonoBehaviour
             rb.velocity = rb.velocity.normalized * maxSpeed;
         }
     }
-
-    float RoundToRange(float value)
-    {
-        if (value < 0)
-        {
-            return Mathf.Clamp(value, -1f, 0f);
-        }
-        else
-        {
-            return Mathf.Clamp(value, 0f, 1f);
-        }
-    }
-
-
+    
     private void CheckingGround()
     {
        // isGrounded = Physics2D.OverlapCircle(GroundCheck.GetComponent<CircleCollider2D>().bounds.center, checkRadius, ground);
