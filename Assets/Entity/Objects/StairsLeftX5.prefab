@@ -137,7 +137,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c01311e9cc5b2b14aa172eddce011d4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  climbingSpeed: 3
+  climbingSpeed: 200
+  ladderDirection: left
 --- !u!61 &7676548629097673479
 BoxCollider2D:
   m_ObjectHideFlags: 0

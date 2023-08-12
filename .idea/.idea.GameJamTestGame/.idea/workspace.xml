@@ -5,9 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="191c6aed-0be4-49be-877f-c0318a0d9e71" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/armor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/armor/modern.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/armor/modern/helmet heavy.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/armor/modern/helmet light.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/armor/modern/vest heavy.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/armor/modern/vest light.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/clothes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/clothes/Boots.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/clothes/Boots/boot brown.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/clothes/Jeans.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/clothes/Jeans/jeans black 1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/clothes/Jeans/jeans black 2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/clothes/Jeans/jeans black 3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/clothes/Jeans/jeans blue 1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/clothes/Jeans/jeans blue 2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/clothes/Jeans/jeans blue 3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/clothes/T-shirt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/clothes/T-shirt/t-shirt blue 1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/clothes/T-shirt/t-shirt blue 2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/clothes/T-shirt/t-shirt green 1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Textures/clothes/T-shirt/t-shirt green 2.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJamTestGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJamTestGame/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Entity/Character/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entity/Character/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entity/Objects/StairsLeftX5.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Entity/Objects/StairsLeftX5.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/L1P1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/L1P1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LobbyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LobbyScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/LadderScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LadderScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovementScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovementScript.cs" afterDir="false" />
     </list>
@@ -17,6 +39,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1484330f2c5e4a75be9b9b308ef51ff62aa00/82/76d67f87/Rigidbody2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/17484a9af6b944dea5cd9be4dbb0da2c171c00/09/676f28f1/UnitySynchronizationContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/915ee440ff24469bb17649a0923b67bf19d200/00/5b10630c/VisualElement.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/915ee440ff24469bb17649a0923b67bf19d200/72/aa6e63d7/LayoutDataStore.cs" root0="SKIP_HIGHLIGHTING" />
@@ -114,6 +137,7 @@
       <workItem from="1691614730718" duration="2007000" />
       <workItem from="1691617076913" duration="341000" />
       <workItem from="1691696042352" duration="6327000" />
+      <workItem from="1691862960639" duration="7919000" />
     </task>
     <servers />
   </component>
