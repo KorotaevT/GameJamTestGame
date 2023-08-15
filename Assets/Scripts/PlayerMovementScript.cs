@@ -19,7 +19,7 @@ public class PlayerScript : MonoBehaviour
     private Vector2 startPoint;
     public float distance = 0.35f;
     private bool isFlipped = false;
-    private bool isClimbing = false;
+    public bool isClimbing = false;
 
     private void Start()
     {
@@ -75,18 +75,19 @@ public class PlayerScript : MonoBehaviour
 
     private void MovementLogic()
     {
-        float moveHorizontal = ((Input.GetAxis("Horizontal") > 0) ? 1.0f : ((Input.GetAxis("Horizontal") < 0) ? -1.0f : 0.0f));
-        rb.velocity = new Vector2(moveHorizontal * moveSpeed, rb.velocity.y);
-    }
-    
-    private void OnCollisionStay2D(Collision2D other)
-    {
-        if (other.gameObject.CompareTag("ladder") && rb.velocity.magnitude > maxSpeed)
+        if (!isClimbing)
         {
-            rb.velocity = rb.velocity.normalized * maxSpeed;
+            float moveHorizontal = ((Input.GetAxis("Horizontal") > 0)
+                ? 1.0f
+                : ((Input.GetAxis("Horizontal") < 0) ? -1.0f : 0.0f));
+            foreach (Transform child in rb.transform.parent)
+            {
+                Rigidbody2D playerRigidbody = child.GetComponent<Rigidbody2D>();
+                playerRigidbody.velocity = new Vector2(moveHorizontal * moveSpeed, rb.velocity.y);
+            }
         }
     }
-    
+
     private void CheckingGround()
     {
        // isGrounded = Physics2D.OverlapCircle(GroundCheck.GetComponent<CircleCollider2D>().bounds.center, checkRadius, ground);

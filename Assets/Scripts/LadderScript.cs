@@ -31,6 +31,8 @@ public class LadderScript : MonoBehaviour
             isOnLadder = false;
             transform.parent.GetComponent<Collider2D>().enabled = false;
         }
+        other.transform.parent.parent.Find("PlayerTorso(and Control)").GetComponent<PlayerScript>().isClimbing =
+            false;
     }
 
     private void OnTriggerStay2D(Collider2D other)
@@ -40,9 +42,11 @@ public class LadderScript : MonoBehaviour
             isOnLadder = true;
             
         }
-        if (other.CompareTag("Player") && isOnLadder)
+        if (other.CompareTag("groundCheck") && isOnLadder)
         {
-            foreach (Transform child in other.transform.parent.transform)
+            other.transform.parent.parent.Find("PlayerTorso(and Control)").GetComponent<PlayerScript>().isClimbing =
+                true;
+            foreach (Transform child in other.transform.parent.parent)
             {
                 Rigidbody2D playerRigidbody = child.GetComponent<Rigidbody2D>();
                 if (playerRigidbody != null)
