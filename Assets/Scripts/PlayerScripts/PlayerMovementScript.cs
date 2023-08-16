@@ -9,30 +9,28 @@ public class PlayerScript : MonoBehaviour
     public float moveSpeed;
     public float jumpForce;
     private float maxSpeed = 1.5f;
-    private bool isGrounded;
+    public bool isGrounded = false;
     private Rigidbody2D rb;
-    private Transform GroundCheck;
     private float checkRadius = 0.05f;
-    public LayerMask ground ;
     public GameObject LeftFistPos;
     public GameObject RightFistPos;
     private Vector2 startPoint;
     public float distance = 0.35f;
     private bool isFlipped = false;
     public bool isClimbing = false;
+    public bool JumpFromLadder;
 
     private void Start()
     {
         rb = transform.GetComponent<Rigidbody2D>();
-        GroundCheck = transform.Find("Grounded");
     }
 
     void Update()
     {
         MoveHandsToHandle();
         MovementLogic();
-        CheckingGround();
         Jump();
+        Debug.Log(isClimbing);
     }
     
     private void FlipSprite(SpriteRenderer spriteRenderer)
@@ -84,23 +82,26 @@ public class PlayerScript : MonoBehaviour
             {
                 Rigidbody2D playerRigidbody = child.GetComponent<Rigidbody2D>();
                 playerRigidbody.velocity = new Vector2(moveHorizontal * moveSpeed, rb.velocity.y);
+                playerRigidbody.angularVelocity = 0;
             }
         }
     }
-
-    private void CheckingGround()
-    {
-       // isGrounded = Physics2D.OverlapCircle(GroundCheck.GetComponent<CircleCollider2D>().bounds.center, checkRadius, ground);
-    }
-
-
     private void Jump()
     {
         if (Input.GetButtonDown("Jump"))
         {
             if (isGrounded)
             {
-                rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+                foreach (Transform child in rb.transform.parent)
+                {
+                    Rigidbody2D playerRigidbody = child.GetComponent<Rigidbody2D>();
+                    if (isClimbing)
+                    {
+                        JumpFromLadder = true;
+                        isClimbing = false;
+                    }
+                    playerRigidbody.velocity = new Vector2(rb.velocity.x, jumpForce);
+                }
             }
         }
     }

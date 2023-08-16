@@ -91,8 +91,8 @@ PolygonCollider2D:
   m_Points:
     m_Paths:
     - - {x: 0.16, y: -0.16}
-      - {x: -1.44, y: -0.16}
-      - {x: -1.44, y: 1.44}
+      - {x: -1.76, y: -0.16}
+      - {x: -1.76, y: 1.76}
   m_UseDelaunayMesh: 0
 --- !u!1 &7620406117911146056
 GameObject:
@@ -151,7 +151,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: ed6e8c01b17019a458305c00d8c40cd2, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -175,7 +175,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.33174098, y: -0.38107413}
+  m_Offset: {x: -0.26316887, y: -0.41634595}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -185,7 +185,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.6868446, y: 0.15750921}
+  m_Size: {x: 2.823989, y: 0.22663856}
   m_EdgeRadius: 0
 --- !u!1001 &1354775757136601120
 PrefabInstance:
