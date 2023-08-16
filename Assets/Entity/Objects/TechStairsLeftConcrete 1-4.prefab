@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1652784375011111061}
   - component: {fileID: 6953505350597038538}
-  - component: {fileID: 499776956912895726}
   - component: {fileID: 1250605137337813599}
   m_Layer: 16
   m_Name: TechStairsLeftConcrete 1-4
@@ -86,18 +85,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &499776956912895726
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7546419633585381874}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c01311e9cc5b2b14aa172eddce011d4c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &1250605137337813599
 PolygonCollider2D:
   m_ObjectHideFlags: 0
